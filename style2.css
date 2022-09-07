@@ -1,0 +1,92 @@
+.goopic{
+    
+    
+   margin-top: 71px;
+   margin-left: 539px;
+   
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+}
+
+.bar{
+    
+    margin-top: 20px;
+    margin-left: 390px;
+    width: 575px;
+    border-radius: 30px;
+    border: 1px solid #dcdcdc;
+}
+.bar:hover{
+   box-shadow: 1px 1px 10px 1px #dcdcdc;
+
+}
+
+.bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+  }
+.searchbar{
+     
+    border-radius: 30px;
+    height: 43px;
+    border: none;
+    width: 500px;
+    font-size: 16px;
+    outline: none;
+}
+.mic{
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: -10px;
+
+}
+.serpng{
+    height: 20px;
+    position: relative;
+    top:5px;
+    right: -15px;
+    margin-right: 20px;
+}
+.goser{
+    /* background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin-top: 11px;
+    margin-right: 4px;
+    margin-bottom: 11px;
+    margin-left: 4px; */
+    padding: 0px 16px;
+
+}
+.subser[type="submit"]{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin-top: 28px;
+    margin-right: 4px;
+    margin-bottom: 20px;
+    margin-left: 4px;
+    padding: 10px 16px;
+    
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.subser:hover{
+     box-shadow:0 1px 1px rgb(0 0 0 / 10%); 
+    border: 1px solid #dadce0;
+    background-color: #f8f9fa;
+    color: #202124;
+}
+
